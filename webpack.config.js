@@ -14,7 +14,7 @@ module.exports = {
         loader: 'babel-loader',
         query: {
           presets: ['react', 'es2015'],
-          plugins: ['react-html-attrs'] // 添加组件的插件配置
+          plugins: ['react-html-attrs'] // 添加组件的插件配置,JSX中可以使用class,替代className
         }
       },
       // 下面是使用 ant-design 的配置文件

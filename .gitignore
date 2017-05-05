@@ -1,4 +1,6 @@
-# node_modules
-node_modules
-# webstorm
-.idea
+## node_modules
+node_modules/
+## webstorm
+.idea/
+dist/
+npm-debug.log
