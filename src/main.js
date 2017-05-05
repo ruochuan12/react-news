@@ -1,9 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-export default class Main extends React.Component {
+import {Router, Route, hashHistory} from 'react-router';
+import Index from './components/index';
+import Header from './components/header';
+import Footer from './components/footer';
+
+export default class Main extends Component {
     render(){
         return (
-            <div>这里是main页面</div>
+            <Router history={hashHistory}>
+	            <Route component={Index} path="/"></Route>
+			    <Route component={Header} path="header"></Route>
+	            <Route component={Footer} path="footer"></Route>
+            </Router>
         )
     }
 }
