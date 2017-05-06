@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Row, col} from 'antd';
 
 export default class Header extends Component {
 	constructor() {

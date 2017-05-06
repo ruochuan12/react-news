@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, hashHistory} from 'react-router';
 import Index from './components/index';
-import Header from './components/header';
-import Footer from './components/footer';
+import Header from './components/pc/header';
+import Footer from './components/pc/footer';
 
 export default class Main extends Component {
     render(){
